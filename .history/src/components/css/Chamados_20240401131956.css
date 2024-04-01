@@ -1,0 +1,49 @@
+.chamados-table {
+
+  width: 90vw;
+
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.pagination{
+  text-align: right;
+}
+
+.chamados-table th,
+.chamados-table td {
+  padding: 40px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.chamados-table th {
+  background-color: #f2f2f21e;
+}
+
+.namePage{
+  padding: 10px;
+}
+
+.chamados-table td button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chamados-table td button:hover {
+  background-color: #0056b3;
+}
+
+.table-wrapper {
+
+  max-height: 800px; 
+}
+
+.table-body {
+  overflow-y: auto;
+  max-height: 880px; /* ou a altura desejada, subtraindo o espaço ocupado pelo cabeçalho da tabela */
+}

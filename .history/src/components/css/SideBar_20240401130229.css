@@ -1,0 +1,25 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    width: 100px;
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+  }
+  
+  .sidebar.open {
+    width: 0; /* Fecha o menu ao definir a largura como 0 */
+  }
+  /* Adicione estilos para telas menores */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%; /* Menu ocupa toda a largura da tela em telas menores */
+    }
+  }
+  
+  /* Estilos para telas maiores */
+  @media (min-width: 1024px) {
+    .sidebar {
+      width: 300px; /* Ajuste a largura conforme necessário */
+    }
+  }
+  

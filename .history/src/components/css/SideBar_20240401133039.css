@@ -1,0 +1,26 @@
+.sidebar {
+    width: 100px;
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+    
+  }
+  
+  .sidebar.open {
+    width: 0; 
+  }
+
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%; 
+    }
+  }
+  
+
+  @media (min-width: 1024px) {
+    .sidebar {
+      width: 300px; 
+    }
+  }
+
+  
