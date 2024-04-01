@@ -52,8 +52,7 @@ const Chamados = () => {
           <th>Data</th>         
           <th>Cliente</th>
             <th>Setor</th>
-            <th>Descrição do Problema</th>
-            
+            <th>Descrição do Problema</th>         
             <th>Ações</th>
           </tr>
         </thead>
