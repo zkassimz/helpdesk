@@ -49,10 +49,8 @@ const Chamados = () => {
         <thead>
           <tr>
           <th>Número do Ticket</th>
-          <th>Data</th>
-            
-            
-                        <th>Cliente</th>
+          <th>Data</th>         
+          <th>Cliente</th>
             <th>Setor</th>
             <th>Descrição do Problema</th>
             
