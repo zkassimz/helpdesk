@@ -1,0 +1,43 @@
+.sidebar {
+    width: 100px;
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .sidebar.open {
+    width: 0; 
+  }
+
+ 
+  
+  .sidebar-header {
+    /* Estilos para o cabeçalho da barra lateral */
+  }
+  
+  .menu li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .menu li > * {
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+  }
+  
+
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%; 
+    }
+  }
+  
+
+  @media (min-width: 1024px) {
+    .sidebar {
+      width: 300px; 
+    }
+  }
+
+  

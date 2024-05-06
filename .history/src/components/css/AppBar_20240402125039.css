@@ -1,0 +1,65 @@
+
+
+.appbar {
+    background-color: #2e2d2d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px; 
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    z-index: 1000; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+
+
+  .appbar-item{
+    ma
+    align-items: center;
+  }
+  
+  .appbar-left, .appbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .appbar-item, .logout-button {
+    cursor: pointer;
+    margin-right: 20px;
+    text-decoration: none; 
+    color: inherit;
+    transition: all 0.3s ease;
+  }
+  
+  .appbar-item:hover, .logout-button:hover {
+    transform: translateY(-2px); 
+  }
+  
+  .appbar-item span {
+    margin-left: 5px;
+  }
+  
+  .logout-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-button span {
+    margin-right: 10px;
+  }
+  .appbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .appbar-right span {
+    margin-right: 10px;
+  }
+  
+  .logout-button {
+    display: flex;
+    align-items: center;
+  }

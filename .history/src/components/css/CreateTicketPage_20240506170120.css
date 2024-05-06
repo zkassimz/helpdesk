@@ -1,0 +1,55 @@
+.dialog-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centraliza o conteúdo */
+  background-color: rgba(0, 0, 0, 0.5); /* Adicione um fundo semi-transparente */
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%; /* Tamanho do diálogo */
+  max-width: 500px; /* Largura máxima */
+  text-align: center; /* Centraliza o texto */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+textarea,
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
